@@ -11,10 +11,11 @@ int calculaSiguiente(const Arbin<int>& mapa) {
     return ret;
 }
 
+//Prueba ((([3]5[0])2#)1((#3[6])5[1]))
 int resuelve(const Arbin<int>& mapa, int anterior) {
     int ret = 0;
 
-    //Prepara la solución
+    //Prepara la soluciÃ³n
     int siguiente = calculaSiguiente(mapa) - mapa.raiz();
     if (anterior == siguiente) ret++;
 
