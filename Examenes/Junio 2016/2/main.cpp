@@ -3,6 +3,7 @@
 #include "Arbin.h"
 using namespace std;
 
+//Caso de prueba (([0]0([0]0[0]))0(#-2(([0]-1[0])0([0]0[0]))))
 int resuelve(const Arbin<int>& mapa, int & res, int k) {
     int longitudTramo = 0;
 
