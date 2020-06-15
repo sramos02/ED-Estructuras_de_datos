@@ -3,6 +3,7 @@
 #include "Arbin.h"
 using namespace std;
 
+//Caso de prueba (((([11]9[1])4[10])3[8])1[2])
 void resuelve(const Arbin<int>& arbol, bool& esZurdo, int& longMinima) {
 
     if (arbol.hijoIz().esVacio() && arbol.hijoDer().esVacio()) {
